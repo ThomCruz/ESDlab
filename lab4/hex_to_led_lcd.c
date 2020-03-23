@@ -28,7 +28,7 @@ void main(void)
   while(1)
   {
     key = keyscan();  
-		cmd_lcd(0xc0);
+    cmd_lcd(0xc0);
     switch(key){
       case '0':
                 data_lcd(key);
@@ -50,8 +50,8 @@ void main(void)
       case '7':
 				        
       default:
-        		break;
-		}
-        data_lcd(key);                                //Display pressed key on lcd
+        	break;
+  }
+  data_lcd(key);                                //Display pressed key on lcd
   }
 }
