@@ -32,10 +32,10 @@ void main(void)
     switch(key){
       case '0':
                 data_lcd(key);
-        		    P0=0X01;
-				        delay1();
-				        break;
-			case '1':
+        	P0=0X01;
+		delay1();
+		break;
+      case '1':
 				        
       case '2':
 				        
